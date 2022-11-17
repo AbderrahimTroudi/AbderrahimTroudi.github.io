@@ -1,0 +1,22 @@
+{
+  "main.css": "./static/css/main.55d210aa.chunk.css",
+  "main.js": "./static/js/main.ea72ff9e.chunk.js",
+  "main.js.map": "./static/js/main.ea72ff9e.chunk.js.map",
+  "static/js/1.4f656f5f.chunk.js": "./static/js/1.4f656f5f.chunk.js",
+  "static/js/1.4f656f5f.chunk.js.map": "./static/js/1.4f656f5f.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/media/cv-pfe.pptx": "./static/media/cv-pfe.f29a6614.pptx",
+  "static/media/me1.png": "./static/media/me1.1db1c7c7.png",
+  "static/media/portfolio1.jpg": "./static/media/portfolio1.d1e8fb80.jpg",
+  "static/media/portfolio3.jpg": "./static/media/portfolio3.ce79413f.jpg",
+  "static/media/portfolio4.jpg": "./static/media/portfolio4.04dbe3ab.jpg",
+  "static/media/SecondImg.jpg": "./static/media/SecondImg.cce858cb.jpg",
+  "static/media/portfolio2.jpg": "./static/media/portfolio2.13db5e22.jpg",
+  "static/media/portfolio5.png": "./static/media/portfolio5.c6e34db9.png",
+  "static/media/portfolio6.jpg": "./static/media/portfolio6.32a90284.jpg",
+  "static/css/main.55d210aa.chunk.css.map": "./static/css/main.55d210aa.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.2d9dd721308a39f79977acae23da0de3.js": "./precache-manifest.2d9dd721308a39f79977acae23da0de3.js",
+  "service-worker.js": "./service-worker.js"
+}
