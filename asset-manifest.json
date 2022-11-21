@@ -1,12 +1,12 @@
 {
   "main.css": "./static/css/main.9ae1668c.chunk.css",
-  "main.js": "./static/js/main.4300f909.chunk.js",
-  "main.js.map": "./static/js/main.4300f909.chunk.js.map",
+  "main.js": "./static/js/main.5754d529.chunk.js",
+  "main.js.map": "./static/js/main.5754d529.chunk.js.map",
   "static/js/1.1fbbb44a.chunk.js": "./static/js/1.1fbbb44a.chunk.js",
   "static/js/1.1fbbb44a.chunk.js.map": "./static/js/1.1fbbb44a.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "static/media/cv-pfe.pptx": "./static/media/cv-pfe.f29a6614.pptx",
+  "static/media/CV_AbderrahimTroudi_PFE.pptx": "./static/media/CV_AbderrahimTroudi_PFE.73d482b0.pptx",
   "static/media/me1.png": "./static/media/me1.1db1c7c7.png",
   "static/media/javacapt.PNG": "./static/media/javacapt.14b01752.PNG",
   "static/media/portfolio1.jpg": "./static/media/portfolio1.d1e8fb80.jpg",
@@ -15,6 +15,6 @@
   "static/media/SecondImg.jpg": "./static/media/SecondImg.cce858cb.jpg",
   "static/css/main.9ae1668c.chunk.css.map": "./static/css/main.9ae1668c.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.3494a219d3cb28f3a4d8e21ec57af37f.js": "./precache-manifest.3494a219d3cb28f3a4d8e21ec57af37f.js",
+  "precache-manifest.b5a148ec72fc5275e787b2f95abf7540.js": "./precache-manifest.b5a148ec72fc5275e787b2f95abf7540.js",
   "service-worker.js": "./service-worker.js"
 }
