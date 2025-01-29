@@ -1,0 +1,22 @@
+.background-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BgAnimation__svg {
+    width: 100%; /* Adjust size */
+    height: 100%; /* Adjust size */
+  }
+  
+  .center-image {
+    position: absolute;
+    z-index: 1; /* Ensure it appears above the SVG */
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  
