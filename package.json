@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "homepage": "https://abderrahimtroudi.github.io/troudi-abderrahim/"
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",
