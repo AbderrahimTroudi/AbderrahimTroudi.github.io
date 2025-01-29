@@ -1,9 +1,17 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
-import MagicButton from './ui/MagicButton';
-import { VerticalCommonVariants } from '@/utils/framerVariants';
+import { motion } from "framer-motion";
+import {
+  FaEnvelope,
+  FaPhone,
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa";
+import MagicButton from "./ui/MagicButton";
+import { VerticalCommonVariants } from "@/utils/framerVariants";
 
 const Contact = () => {
   const verticalContact = VerticalCommonVariants(60); // Applying same vertical animation
@@ -14,26 +22,24 @@ const Contact = () => {
       id="contact"
       initial="hidden"
       whileInView="shown"
-      viewport={{ amount: 'some', margin: '100% 0% -9% 0%' }}
+      viewport={{ amount: "some", margin: "100% 0% -9% 0%" }}
       variants={verticalContact} // Animation applied to the entire section
     >
-     
-
       <motion.div className="w-full lg:flex items-center justify-center mt-12 gap-12">
         {/* Contact Details */}
         <motion.div
           className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-6 py-8"
           initial="hidden"
           whileInView="shown"
-          viewport={{ amount: 'some', margin: '100% 0% -9% 0%' }}
+          viewport={{ amount: "some", margin: "100% 0% -9% 0%" }}
           variants={verticalContact} // Apply the same animation to this section
         >
-             <h1 className="heading">
-        Get in{' '}
-        <span className="text-purple">Touch</span>
-      </h1>
+          <h1 className="heading">
+            Get in <span className="text-purple">Touch</span>
+          </h1>
           <p className="text-gray-600 dark:text-gray-400 mt-8 max-w-lg">
-            Feel free to reach out to me for collaborations, opportunities, or just to say hello!
+            Feel free to reach out to me for collaborations, opportunities, or
+            just to say hello!
           </p>
           {/* Email */}
           <div className="flex items-center gap-4">
@@ -41,7 +47,10 @@ const Contact = () => {
               <FaEnvelope />
             </div>
             <span className="dark:text-gray-300 text-gray-600">
-              <a href="mailto:abderrahimtroudi222@gmail.com" className="hover:underline">
+              <a
+                href="mailto:abderrahimtroudi222@gmail.com"
+                className="hover:underline"
+              >
                 abderrahimtroudi222@gmail.com
               </a>
             </span>
@@ -53,7 +62,9 @@ const Contact = () => {
               <FaPhone />
             </div>
             <span className="dark:text-gray-300 text-gray-600">
-              <a href="tel:+21628473413" className="hover:underline">+216 28 473 413</a>
+              <a href="tel:+21628473413" className="hover:underline">
+                +216 28 473 413
+              </a>
             </span>
           </div>
 
@@ -107,7 +118,7 @@ const Contact = () => {
           className="w-full lg:w-1/2"
           initial="hidden"
           whileInView="shown"
-          viewport={{ amount: 'some', margin: '100% 0% -9% 0%' }}
+          viewport={{ amount: "some", margin: "100% 0% -9% 0%" }}
           variants={verticalContact} // Apply the same animation to the form
         >
           {/* Name Field */}
@@ -137,7 +148,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              rows="5"
+              rows= {5}
               className="mt-1 block w-full rounded-md bg-gray-400/20 p-3 text-sm dark:text-white outline-none"
               placeholder="Your message"
             ></textarea>
