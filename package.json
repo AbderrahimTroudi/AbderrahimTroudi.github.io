@@ -9,7 +9,7 @@
     "lint": "next lint",
     "predeploy": "next build && next export",
     "deploy": "npm run build && npm run export",
-    "homepage": "https://abderrahimtroudi.github.io/troudi-abderrahim/"
+    "homepage": "https://troudi-abderrahim.github.io"
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",
