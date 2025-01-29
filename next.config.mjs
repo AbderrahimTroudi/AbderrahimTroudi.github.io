@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, // Enables additional checks and warnings in development
+  reactStrictMode: true,
   experimental: {
-    appDir: true, // Ensure App Router is enabled if you're using `app/` directory
+    appDir: true,
   },
+  images: {
+    unoptimized: true, // Disable image optimization for GitHub Pages
+  },
+  basePath: '/troudi-abderrahim',
+  assetPrefix: '/troudi-abderrahim',
 };
 
 export default nextConfig;
