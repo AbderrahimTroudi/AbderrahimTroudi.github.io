@@ -45,14 +45,14 @@ const RecentProjects = () => {
 
               <p className="dark:text-white-100 text-black-200 mt-3 font-semibold">{des}</p>
 
-              <div className="flex items-center mt-7">
+              {/* <div className="flex items-center mt-7">
                 <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                   <a href={link} target="_blank" rel="noreferrer noopener">
                     Github
                   </a>
                 </p>
                 <FaLocationArrow className="ms-3 text-purple" />
-              </div>
+              </div> */}
             </div>
           </motion.div>
         ))}
